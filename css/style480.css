@@ -1,0 +1,17 @@
+@media screen and (min-width:480px){
+	.main_option p.text{
+		font-size: 14px;
+	}
+	.tit{
+		font-size: 18px;
+	}
+	.price_table td,.brand_table td,.type_table td{
+		font-size: 16px;
+	}
+	.last_section_l_l,.last_section_r_l{
+		font-size: 14px;
+	}
+	.footer{
+		font-size: 14px;
+	}
+}
