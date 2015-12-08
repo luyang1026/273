@@ -1,0 +1,63 @@
+/*css reset*/
+body,ul,ol,p,h1,h2,h3,h4,h5,h6,dl,dt,dd,input,fieldset{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-size:12px;
+	line-height:1;
+}
+fieldset{
+	border: none;
+}
+h1,h2,h3,h4,h5,h6{
+	font-size:12px;
+}
+h1,h2,h3,h4,h5,h6,strong,b{
+	font-weight: normal;
+}
+ul,ol{
+	list-style: none;
+}
+a{
+	color: #000;
+	text-decoration: none;
+}
+i,em{
+	font-style: normal;
+}
+a img{
+	border-style: none;
+}
+table{
+	border-collapse: collapse;
+}
+td,th{
+	padding: 0;
+}
+/*common style*/
+img{
+	vertical-align:top;
+	}
+.fl{
+	float:left
+	}
+.fr{
+	float:right
+}
+.clearfix:after{
+	content:'';
+	display:block;
+	clear:both
+}
+.clearfix{
+	zoom:1
+}
+hr{
+	border:none;
+	height: 0;
+	border-bottom:1px dashed #ccc;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+

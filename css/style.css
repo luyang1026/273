@@ -1,0 +1,269 @@
+body{
+	font-family: 'Microsoft Yahei';
+	background-color: #f2f2f2;
+}
+.top{
+	max-width: 960px;
+	margin: 0 auto;
+}
+.container{
+	max-width: 640px;
+	min-width: 320px;
+	margin: 0 auto;
+}
+.logo{
+	margin: 21px 0 0 12px;
+	height: 29px;
+	width: 168px;
+	text-indent: -999px;
+	overflow: hidden;
+	background: url(../img/logo.png) no-repeat;
+}
+.logo a{
+	display: block;
+	height: 100%;
+}
+.location{
+	font-size: 14px;
+	padding-left: 15px;
+	background: url(../img/location.gif) no-repeat ;
+	margin: 27px 20px 0 0;
+}
+.banner{
+	position: relative;
+}
+.banner_list li{
+	display: none;
+}
+.banner_list .show{
+	display: block;
+}
+.banner_list img{
+	width: 100%;
+	height: auto;
+}
+.banner_list1{
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	width: 10%;
+	height: 12px;
+	border-radius: 6px;
+	padding: 0 6px;
+	background-color: rgba(0, 0, 0, 0.5);
+	display: table;
+}	
+.banner_list1 li{
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 2px;
+}
+.banner_list1 .round_button{
+	width: 6px;
+	height: 6px;
+	border-radius: 3px;
+	background-color: #fff;
+	display: inline-block;
+}
+.banner_list1 .active{
+	background-color: #ac8061;
+}
+.searchbox{
+	height: 36px;
+	line-height: 36px;
+	font-size: 14px;
+	padding-left: 36px;
+	position: absolute;
+	left: 10px;
+	right: 10px;
+	bottom: 10px;
+	background: url(../img/search.png) no-repeat 15px 10px;
+	background-color: #fff;
+}
+.searchbox .search{
+	box-sizing: border-box;
+	height: 100%;
+	width: 100%;
+	border: none;
+	padding: 0;
+	outline: none;
+	vertical-align: top;
+	padding-left: 10px;
+}
+.main_option {
+	border-bottom: 1px solid #eee;
+	margin-bottom: 10px;
+}
+.main_option li{
+	float: left;
+	border-right: 1px solid #ddd;
+	width: 25%;
+	box-sizing: border-box;
+	text-align: center;
+	background-color: #fff;
+}
+.main_option li:last-child{
+	border-right: none;
+}
+.main_option img{
+	width: 44%;
+	height: auto;
+}
+.main_option p.img{
+	margin-top: 10px;
+}
+.main_option p.text{
+	line-height: 1.67;
+}
+.showcase {
+	border-top: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+	margin-bottom: 10px;
+}
+.showcase img{
+	width: 100%;
+	height: auto;
+}
+/*这里很神奇*/
+.showcase li:first-child{
+	margin-bottom: 2px;
+}
+.showcase .fl{
+	box-sizing: border-box;
+	width: 49.5%;
+}
+.showcase a{
+	display: block;
+}
+.showcase .fr{
+	width: 50%;
+}
+.section{
+	background-color: #fff;
+	overflow: hidden;	
+}
+.tit{
+	height: 21px;
+	line-height: 21px;
+	border-left: solid 4px;
+	padding-left: 10px;
+	margin: 10px 0;
+	font-size: 14px;
+}
+.section .price{
+	border-left-color: #f37e0b;
+}
+.section .brand{
+	border-left-color: #4881c9;
+}
+.section .type{
+	border-left-color: #48c242;
+}
+.price_table,.brand_table,.type_table{
+	width: 100%;
+	text-align: center;
+}
+.price_table td,.type_table td{
+	border: 1px solid #ddd;
+	border-left: none;
+	height: 42px;
+	box-sizing: border;
+	width: 25%;
+}
+.price_table td:last-child,.brand_table td:last-child,.type_table td:last-child{
+	border-right: none;
+}
+.brand_table img{
+	vertical-align: middle;
+}
+.brand_table td{
+	border: 1px solid #ddd;
+	border-left: none;
+	height: 77px;
+	font-size: 14px;
+	box-sizing: border-box;
+	width: 25%;
+}
+.brand_table td p{
+	height: 38px;
+	line-height: 38px;
+	margin-bottom: 8px;
+}
+.type_table td {
+	font-size: 14px;
+}
+/*内容底部*/
+.last_section{
+	margin-top: 10px;
+	border-top: 1px solid #eee;
+}
+.last_section .fl{
+	width: 49.8%;
+	height: 60px;
+	background-color: #fff;
+}
+.last_section_l_l,.last_section_r_l{
+	padding: 10px 0 0 15px;
+	line-height: 1.5;
+	float: left;
+}
+.last_section_l_l .second_line,.last_section_r_l .second_line{
+	color: #bababa;
+}
+.last_section_l_l .second_line span{
+	color: #ff5500;
+}
+.last_section_l_r{
+	padding: 6px 12px 5px 0;
+	float: right;
+}
+.last_section .fr{
+	width: 49.8%;
+	height: 58px;
+	background-color: #fff;
+}
+.last_section .btn{
+	float: right;
+	width: 25px;
+	height: 25px;
+	margin: 18px 22px 0 0;
+	background: url(../img/btn.gif) no-repeat;
+}
+.last_section .b_ad{
+	display: block;
+	width: 100%;
+}
+.last_section .b_ad img{
+	width: 100%;
+}
+/*底部*/
+.footer{
+	max-width: 1000px;
+	margin: 0 auto;
+	height: 80px;
+	background-color: #fff;
+	overflow: hidden;
+	text-align: center;
+}
+.footer_options{
+	margin: 19px 0 15px;
+}
+.footer_options a{
+	padding: 0 10px;
+	border-right: 2px solid #a8c8ef;
+}
+.footer_options a:last-child{
+	border: none;
+}
+.footer .contact{
+	color: #999;
+}
+.footer .number{
+	color: #ff5500;
+	font-weight: bold;
+	margin-left: 10px;
+}
+
+
+
